@@ -1,0 +1,177 @@
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+
+  margin: 0;
+  display: flex;
+  align-items: center;
+
+  background:rgb(245 247 253);
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+
+  margin: 0;
+  align-items: center;
+  display: inline-flex;
+}
+div#tasks {
+  height: 100vh;
+  display: flex;
+  width: 100vw;
+
+  margin-top: 50px;
+  flex-direction: column;
+  align-items: center;
+
+  margin: auto;
+
+  overflow-y: auto;
+}
+#box-search {
+  display: flex;
+}
+
+#box-search span {
+  display: flex;
+}
+
+#box-search span button {
+  width: 65px;
+  height: 32px;
+  border: none;
+  border-radius: 0px 15px 15px 0px;
+  background-color: #688abf;
+  color: #c5daff;
+  font-family: "Proza Libre", sans-serif;
+  transition: 200ms;
+  cursor: pointer;
+  outline: none;
+}
+
+#textbox {
+  width: 400px;
+  max-height: 455px;
+  margin-top: 20px;
+  overflow-y: auto;
+  justify-content: center;
+
+  border-radius: 20px;
+  display: grid;
+
+  background-color: #6c9dd2;
+  justify-content: center;
+}
+input#inputext {
+  background-color: #f0f8ff;
+  border: none;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: grid;
+  height: 30px;
+  width: 330px;
+  outline: none;
+  
+  padding-left: 20px;
+  padding-right: 20px;
+
+ 
+}
+
+input#inputext:hover {
+    outline-color: blueviolet;
+    background-color: #f0f8ff;
+    color: #807975;
+}
+
+
+#box-search span button:hover {
+  background-color: #84aceb;
+  color: #2459b3;
+}
+#search {
+  height: 30px;
+  width: 250px;
+
+  border-radius: 15px 0px 0px 15px;
+  border: none;
+
+  outline: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: aliceblue;
+
+  font-family: "Proza Libre", sans-serif;
+}
+div#tasks h2 {
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+
+  margin: 10px auto;
+
+  color: #688abf;
+}
+
+#title {
+  font-family: "Righteous", cursive;
+  color: #3e8bff;
+}
+
+.footer {
+  width: 100vw;
+  height: 100px;
+  background-color: rgb(41 56 78);
+  justify-content: center;
+
+  display: flex;
+
+  margin-top: auto;
+
+  align-content: center;
+  display: grid;
+  justify-items: center;
+}
+
+div.footer p {
+  color: #8396a7;
+  font-size: 13px;
+  transition: 200ms;
+}
+div.footer p:hover {
+  color: #9ebeda;
+}
+div.footer a img {
+  height: 35px;
+}
+div.footer a {
+  text-decoration: none;
+}
+
+/*Overflow custom css*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px rgb(89, 173, 206);
+  background-color: rgb(199, 215, 221);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #4d6880;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b9daf6;
+}
