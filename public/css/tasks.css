@@ -55,16 +55,16 @@ div#tasks {
 
 #textbox {
   width: 400px;
-  max-height: 455px;
-  margin-top: 20px;
-  overflow-y: auto;
-  justify-content: center;
-
-  border-radius: 20px;
-  display: grid;
-
-  background-color: #6c9dd2;
-  justify-content: center;
+    max-height: 455px;
+    margin-top: 20px;
+    overflow-y: auto;
+    border-radius: 20px;
+    display: grid;
+    background-color: #6c9dd2;
+    justify-content: center;
+    font-family: "Proza Libre", sans-serif;
+    color: #282d35;
+    font-size: 15px;
 }
 input#inputext {
   background-color: #f0f8ff;
