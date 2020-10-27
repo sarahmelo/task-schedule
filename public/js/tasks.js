@@ -22,7 +22,7 @@ function add() {
     console.log("limpei");
     let element = group[index];
     textScreen.innerHTML += `${element} <br>`;
-    text.value = ``;
+    text.value = '';
     // if(array.length > 0) {
     //   for (let i = 0; i < array.length; i++) {
     //     const element = array[i];
